@@ -1,0 +1,22 @@
+[
+    {
+        "id" : "1",
+        "name" : "rice",
+        "description" : "this is rice crop. its an anual crop in india",
+        "tips" : {
+            "plantselection" : "Crop duration:\n\n• Long-duration varieties (160 days and longer) are suitable for irrigated areas.\n\n• Medium-duration varieties (120-140 days) are suitable for both rainfed and irrigated areas.\n\n• Short-duration varieties (less than 120 days) are suitable for drought-prone areas or for double cropping.\n\nCrop height:\n\n• Tall varieties (1.4 m and taller) are suitable for flood-prone and unleveled fields, but lodging may be a problem.\n\n• Medium-height varieties (1-1.2 m) are suitable for most areas and are less susceptible to lodging when fertilizer is used.\n\n• Short varieties are best suited for level fields, especially in irrigated areas. They are normally less than 1 m in height.\n\nGrain quality:\n\n• A premium is often paid for aromatic varieties, but yields are normally lower.\n\n• Eating qualities such as softness, stickiness, and color after cooking are important."
+        },
+        "imgUrl" : "https://media.istockphoto.com/id/1002656572/vector/rice-plant-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=lYX-kWDub7TTIm_dhZww5Ob5utB3Eirn7Y_xa_Z2uv0="
+    },
+    
+    {
+        "id" : "2",
+        "name" : "wheat",
+        "description" : "this is wheat crop. its an anual crop in india",
+        "tips" : {
+            "plantselection" : "Crop duration:\n\n• Long-duration varieties (160 days and longer) are suitable for irrigated areas.\n\n• Medium-duration varieties (120-140 days) are suitable for both rainfed and irrigated areas.\n\n• Short-duration varieties (less than 120 days) are suitable for drought-prone areas or for double cropping.\n\nCrop height:\n\n• Tall varieties (1.4 m and taller) are suitable for flood-prone and unleveled fields, but lodging may be a problem.\n\n• Medium-height varieties (1-1.2 m) are suitable for most areas and are less susceptible to lodging when fertilizer is used.\n\n• Short varieties are best suited for level fields, especially in irrigated areas. They are normally less than 1 m in height.\n\nGrain quality:\n\n• A premium is often paid for aromatic varieties, but yields are normally lower.\n\n• Eating qualities such as softness, stickiness, and color after cooking are important."
+        },
+        "imgUrl" : "https://media.istockphoto.com/id/687888924/vector/ears-of-wheat-vector-sketch.jpg?s=612x612&w=0&k=20&c=ApyS-Q77p8cias5al0wRDYzBodg0KRQ581RSPnadOhw="
+    }
+
+]

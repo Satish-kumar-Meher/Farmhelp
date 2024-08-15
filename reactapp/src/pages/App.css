@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.crop-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.crop-item {
+  position: relative;
+  width: 150px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border 0.3s;
+}
+
+.crop-item.selected {
+  border-color: green;
+}
+
+.crop-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.crop-item p {
+  text-align: center;
+  margin-top: 5px;
+}
