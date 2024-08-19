@@ -82,7 +82,7 @@ const {storeTokenInLS} = useAuth()
     }
     
   )
-  toast("Registration succesfull")
+  toast.success("Registration succesfull")
     navigate("/login")// this is for login page naviagtion after register
 
     }else{
@@ -158,6 +158,7 @@ const {storeTokenInLS} = useAuth()
           </div>
         </main>
       </section>
+      
     </>
   );
 };

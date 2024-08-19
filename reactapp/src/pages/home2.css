@@ -1,0 +1,97 @@
+.image-container {
+    width: 100%;
+    height: 40rem;
+    /* border: 0.1px solid black; */
+  margin-left: -1rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+    /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  background: url("https://uiparadox.co.uk/templates/farmer/assets/media/banner/hero-banner-2.png");
+}
+
+.text-container {
+    padding: 3rem;
+    margin: 9rem;
+    margin-left: 1rem;
+    width: 50%;
+    height: 20rem;
+    /* border: 1px solid black; */
+    color: white;
+    font-size: 28px;
+    font-weight: 100;
+}
+h1 {
+    font-family: "Exo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 52px;
+    line-height: 120%;
+    letter-spacing: -1.22px;
+}
+.btn-container {
+    padding: 6rem;
+  display: flex;
+  gap: 3rem;
+  margin-left: -6rem;
+  margin-top: -4rem;
+}
+
+.btn-container a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-1 {
+    margin-top: 20px;
+  padding: 14px 38px;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  /* background: linear-gradient(270deg, rgba(46, 220, 171, 1.0), rgba(22, 16, 38, 1.0)); */
+  /* background-color:  rgba(46, 220, 171, 1.0); */
+  background: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: aliceblue 0px 1px 4px; 
+}
+
+.btn-2 {
+    margin-top: 20px;
+    padding: 14px 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    /* background: linear-gradient(270deg, rgba(46, 220, 171, 1.0), rgba(22, 16, 38, 1.0)); */
+    /* background-color:  rgba(46, 220, 171, 1.0); */
+    /* background: transparent; */
+    background-color: #1c4045;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: aliceblue 0px 1px 4px; 
+    
+}
+
+.btn-3 {
+  margin-top: 20px;
+  padding: 14px 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  /* background: linear-gradient(270deg, rgba(46, 220, 171, 1.0), rgba(22, 16, 38, 1.0)); */
+  /* background-color:  rgba(46, 220, 171, 1.0); */
+  background: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+  box-shadow: aliceblue 0px 1px 4px; 
+}
+
+.btn-3:hover,.btn-2:hover,.btn-1:hover {
+  /* Add a suitable hover color */
+  background-color: rgba(46, 220, 171, 1.0); /* Light green background on hover */
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
+}

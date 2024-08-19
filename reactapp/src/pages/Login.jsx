@@ -50,7 +50,7 @@ export const Login = () => {
         storeTokenInLS(res_data.token)
         console.log("res from server", res_data)
 
-        toast("Login succesful")
+        toast.success("Login succesful")
         setUser({
           email: "",
           password: "",

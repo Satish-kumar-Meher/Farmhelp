@@ -19,8 +19,13 @@ const {isLoggedIn} = useAuth()
                     <li><NavLink  to="/about">ABOUT</NavLink></li>
                     {/* conditional rendering :- */}
                     
-                    {isLoggedIn ?  <li><NavLink to="/logout">LOGOUT</NavLink></li> 
-                    
+                    {isLoggedIn ?  <> 
+                        <li><NavLink to="/profile">PROFILE</NavLink></li>
+                        <li><NavLink to="/community">COMMUNITY</NavLink></li>
+                        <li><NavLink to="/marketing">DUKAAN</NavLink></li>
+                        <li><NavLink to="/logout">LOGOUT</NavLink></li>
+                
+                    </>
                     :
 
                     <>

@@ -1,6 +1,6 @@
 const User = require("../models/user-model")
 const bcrypt = require("bcryptjs")
-const mongoose = require("mongoose")
+
 
 
 const register = async (req,res) => {

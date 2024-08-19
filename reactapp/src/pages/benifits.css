@@ -1,0 +1,101 @@
+.benefits-section {
+    background-image: url('https://wp.ditsolution.net/agrofarmnew/wp-content/uploads/2022/01/home-3-service-bg.jpg');
+    background-size: contain;
+    background-position: center;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .section-heading {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #177985;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .benefits-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .lower-row {
+    justify-content: center;
+  }
+  
+  .benefit-box {
+    position: relative;
+    width: 13%; /* Reduced width for better alignment */
+    margin: 2.8rem;
+    padding: 5.6rem;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    background-position: center;
+    color: #177985;
+    font-family: 'Roboto', sans-serif;
+    /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+    overflow: hidden;
+    /* background-color: #1c4045; */
+    /* background: linear-gradient(240deg, rgba(46, 220, 171, 1.0), rgba(22, 16, 38, 1.0)); */
+    background: linear-gradient(to top, rgba(46, 220, 171, 0), rgba(22, 16, 38, 0)); 
+    /* background: linear-gradient(to top, rgba(46, 220, 171, 0) 0%, rgba(22, 16, 38, 1) 100%); */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-position 0s ease-in-out; /* Animate background position */
+  }
+  
+  .benefit-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6;
+    z-index: 1;
+  }
+  
+  
+  
+  .benefit-box h3, .benefit-box p {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .benefit-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+    animation: gradient-cover 0.5s forwards;
+    /* background-position: top; Move the background to the top */
+    color: white;
+}
+  
+  
+@keyframes gradient-cover {
+    0% {
+        background: linear-gradient(to top, rgba(46, 220, 171, 0), rgba(22, 16, 38, 0));
+    }
+    100% {
+        background: linear-gradient(to top, rgba(46, 220, 171, 1.0), rgba(22, 16, 38, 1.0));
+    }
+}
+
+
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .benefits-container {
+      flex-direction: column;
+    }
+  
+    .benefit-box {
+      width: 45%;
+      margin: 15px auto;
+    }
+  
+    .section-heading {
+      font-size: 2rem;
+    }
+  }
+  
